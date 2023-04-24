@@ -1,0 +1,22 @@
+{
+    "name": "vasnijaimes/widgets",
+    "description": "prueba tecnica",
+    "type": "proyect",
+    "require": {
+        "guzzlehttp/guzzle": "dev-master"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Api\\": "Api/",
+            "Helpers\\": "Helpers/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Vasni Jaimes",
+            "email": "baster07mi@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
