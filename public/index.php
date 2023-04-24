@@ -17,7 +17,7 @@
                     <?=
                         nl2br(
                             htmlentities(
-                                '<iframe src="http://localhost/widgets/" style="width:100%; height: 450px" frameborder="0"></iframe>'
+                                '<iframe src="http://ec2-18-225-36-175.us-east-2.compute.amazonaws.com/widget-players.php" style="width:100%; height: 450px" frameborder="0"></iframe>'
                             )
                         );
                     ?>
@@ -30,7 +30,7 @@
                     <?=
                         nl2br(
                             htmlentities(
-                                '<iframe src="http://localhost/widgets/" style="width:100%; height: 450px" frameborder="0"></iframe>'
+                                '<embed src="http://ec2-18-225-36-175.us-east-2.compute.amazonaws.com/widget-players.php" style="width:100%; height: 450px" frameborder="0">'
                             )
                         );
                     ?>
@@ -45,7 +45,7 @@
                     <?=
                         nl2br(
                             htmlentities(
-                                '<iframe src="http://localhost/widgets/" style="width:100%; height: 450px" frameborder="0"></iframe>'
+                                '<iframe src="http://ec2-18-225-36-175.us-east-2.compute.amazonaws.com/widget-results.php" style="width:100%; height: 450px" frameborder="0"></iframe>'
                             )
                         );
                     ?>
@@ -58,7 +58,7 @@
                     <?=
                         nl2br(
                             htmlentities(
-                                '<iframe src="http://localhost/widgets/" style="width:100%; height: 450px" frameborder="0"></iframe>'
+                                '<embed src="http://ec2-18-225-36-175.us-east-2.compute.amazonaws.com/widget-results.php" style="width:100%; height: 450px" frameborder="0">'
                             )
                         );
                     ?>
