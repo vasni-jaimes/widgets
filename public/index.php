@@ -5,18 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Widgets</title>
-
-    <style>
-        .container-main {
-            display: flex;
-            flex-direction: column;
-        }
-
-        .iframe-class {
-            display: flex;
-            flex-direction: column;
-        }
-    </style>
+    <link rel="stylesheet" href="../assets/css/index.css">
 </head>
 <body>
     
@@ -25,30 +14,26 @@
             <div class="iframe-class">
                 <p>Iframe Widget 1</p>
                 <span>
-                    <pre>
-                        <?=
-                            nl2br(
-                                htmlentities(
-                                    '<iframe src="http://localhost/widgets/" style="width:100%; height: 450px" frameborder="0"></iframe>'
-                                )
-                            );
-                        ?>
-                    </pre>
+                    <?=
+                        nl2br(
+                            htmlentities(
+                                '<iframe src="http://localhost/widgets/" style="width:100%; height: 450px" frameborder="0"></iframe>'
+                            )
+                        );
+                    ?>
                 </span>
             </div>
 
             <div class="embed-class">
                 <p>Embed Widget 1</p>
                 <span>
-                    <pre>
-                        <?=
-                            nl2br(
-                                htmlentities(
-                                    '<iframe src="http://localhost/widgets/" style="width:100%; height: 450px" frameborder="0"></iframe>'
-                                )
-                            );
-                        ?>
-                    </pre>
+                    <?=
+                        nl2br(
+                            htmlentities(
+                                '<iframe src="http://localhost/widgets/" style="width:100%; height: 450px" frameborder="0"></iframe>'
+                            )
+                        );
+                    ?>
                 </span>
             </div>
         </div>
@@ -57,30 +42,26 @@
             <div class="iframe-class">
                 <p>Iframe Widget 2</p>
                 <span>
-                    <pre>
-                        <?=
-                            nl2br(
-                                htmlentities(
-                                    '<iframe src="http://localhost/widgets/" style="width:100%; height: 450px" frameborder="0"></iframe>'
-                                )
-                            );
-                        ?>
-                    </pre>
+                    <?=
+                        nl2br(
+                            htmlentities(
+                                '<iframe src="http://localhost/widgets/" style="width:100%; height: 450px" frameborder="0"></iframe>'
+                            )
+                        );
+                    ?>
                 </span>
             </div>
 
             <div class="embed-class">
                 <p>Embed Widget 2</p>
                 <span>
-                    <pre>
-                        <?=
-                            nl2br(
-                                htmlentities(
-                                    '<iframe src="http://localhost/widgets/" style="width:100%; height: 450px" frameborder="0"></iframe>'
-                                )
-                            );
-                        ?>
-                    </pre>
+                    <?=
+                        nl2br(
+                            htmlentities(
+                                '<iframe src="http://localhost/widgets/" style="width:100%; height: 450px" frameborder="0"></iframe>'
+                            )
+                        );
+                    ?>
                 </span>
         </div>
     </div>

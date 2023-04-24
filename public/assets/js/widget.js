@@ -27,7 +27,7 @@ if ( selectSession ) {
            
         }
 
-        const response = await fetch('/widgets/api-calls.php', options)
+        const response = await fetch('/api-calls.php', options)
         .then(response => response.json())
         .then( objplayer => {
             if ( objplayer.message != 'ok' ) {

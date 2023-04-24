@@ -1,5 +1,5 @@
 <?php
-    include './vendor/autoload.php';
+    include '../vendor/autoload.php';
     use Api\Sessions;
     use Api\TopScores;
     use Helpers\HelperWidgets;

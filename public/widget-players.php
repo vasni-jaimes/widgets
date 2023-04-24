@@ -1,5 +1,5 @@
 <?php
-    include './vendor/autoload.php';
+    include '../vendor/autoload.php';
     use Api\Players;
     use Api\Countries;
     use Helpers\HelperWidgets;
