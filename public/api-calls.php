@@ -1,5 +1,5 @@
 <?php
-include './vendor/autoload.php';
+include '../vendor/autoload.php';
 use Api\TopScores;
 use Api\ErrorLog;
 
