@@ -3,8 +3,8 @@ include '../vendor/autoload.php';
 use Api\TopScores;
 use Api\ErrorLog;
 
-ini_set('display_errors',1);
-error_reporting(E_ALL);
+// ini_set('display_errors',1);
+// error_reporting(E_ALL);
 
 header("Content-type: application/json; charset=utf-8");
 
