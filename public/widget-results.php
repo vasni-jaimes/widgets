@@ -10,12 +10,6 @@
     $objTopScores     = new TopScores();
     $topScorePlayersBySesion = $objTopScores->getSesionByID( $sessionAll[0]->id );
     $count = 1;
-
-    // echo "<pre>";
-    //     print_r( $topScorePlayersBySesion );
-    // echo "</pre>";
-
-    // exit;
 ?>
 
 <!DOCTYPE html>

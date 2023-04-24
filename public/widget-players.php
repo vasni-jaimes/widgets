@@ -4,7 +4,6 @@
     use Api\Countries;
     use Helpers\HelperWidgets;
 
-    //$players = new stdClass();
     $objPlayers = new Players();
     $players    = $objPlayers->getAllPlayers();
     $countries  = $objPlayers->getCountrieForPlayer( $players );
